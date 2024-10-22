@@ -7,7 +7,7 @@ This is a Banana Ripeness Detector. The model looks at a picture of a banana and
 2. download the resnet18.onnx file model from this link (inset google drive link) and put it in the repository. 
 3. in the terminal, navigate to this folder where banana.py is located and run this command and then replace overripe.jpg with the banana picture that you want to classify.
 
-python3 banana.py --network=/home/nvidia/jetson-inference/Banana\ Project/resnet18.onnx --labels=/home/nvidia/jetson-inference/Banana\ Project/labels.txt /home/nvidia/jetson-inference/Banana\ Project/overripe.jpg
+python3 banana.py test.jpg
 
 
 
